@@ -1,0 +1,9 @@
+
+body {
+    background-color: rgba(175, 177, 179, 0.5);
+}
+.bg {
+    background-color: rgb(142, 144, 145);
+    color: rgb(142, 144, 145);
+    font-size:5px;
+}
