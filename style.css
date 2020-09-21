@@ -12,7 +12,14 @@ body {
 }
 
 .container {
-    background-color: rgb(230,230,230);
+    background-color: rgb(240,240,240);
     padding: 20px;
 }
+
+form {
+    padding: 20px;
+    background-color: white;
+}
+
+
 
