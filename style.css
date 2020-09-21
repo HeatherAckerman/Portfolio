@@ -1,9 +1,17 @@
-
-body {
-    background-color: rgba(175, 177, 179, 0.5);
+* {
+    font-size: large;
 }
+body {
+    background-color: rgb(200,200,200);
+}
+
 .bg {
-    background-color: rgb(142, 144, 145);
-    color: rgb(142, 144, 145);
+    background-color: rgb(145, 145, 145);
+    color: rgba(145, 145, 145);
     font-size:5px;
+}
+
+.container {
+    background-color: rgb(230,230,230);
+    padding: 20px;
 }
