@@ -1,8 +1,18 @@
 * {
     font-size: large;
 }
+
 body {
     background-color: rgb(200,200,200);
+}
+
+h5 {
+    padding-bottom: 10px;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-character;
 }
 
 .bg {
@@ -13,18 +23,16 @@ body {
 
 .container {
     background-color: rgb(240,240,240);
-    padding: 50px;
+    padding: 60px;
+}
+
+.padding {
+    padding-top: 30px;
 }
 
 form {
     padding: 20px;
     background-color: rgb(255,255,255);
-}
-h5 {
-    padding-bottom: 10px;
-}
-.padding {
-    padding-top: 30px;
 }
 
 
