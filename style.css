@@ -8,6 +8,7 @@ body {
 
 h5 {
     padding-bottom: 10px;
+    padding-top: 30px;
 }
 
 p {
@@ -24,10 +25,6 @@ p {
 .container {
     background-color: rgb(240,240,240);
     padding: 60px;
-}
-
-.padding {
-    padding-top: 30px;
 }
 
 form {
