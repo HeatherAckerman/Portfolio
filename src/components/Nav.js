@@ -1,36 +1,27 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Nav(props) {
+function Nav() {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
-        <a
-          href="#home"
-          onClick={() => props.handlePageChange("Home")}
-          className={props.currentPage === "Home" ? "nav-link active" : "nav-link"}
-        >
-          Home
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#Portfolio"
-          onClick={() => props.handlePageChange("Portfolio")}
-          className={props.currentPage === "Portfolio" ? "nav-link active" : "nav-link"}
-        >
-          Portfolio
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#contact"
-          onClick={() => props.handlePageChange("Contact")}
-          className={props.currentPage === "Contact" ? "nav-link active" : "nav-link"}
-        >
-          Contact
-        </a>
-      </li>
-    </ul>
+    <div>
+      <nav ClassName="navbar navbar-light">
+        <nav ClassName="navbar navbar-expand-lg navbar-light">
+          <a ClassName="navbar-brand" href="#">Heather Ackerman</a>
+          <button ClassName="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span ClassName="navbar-toggler-icon"></span>
+          </button>
+          <div ClassName="collapse navbar-collapse" ClassName="nav justify-content-end" id="navbarNavAltMarkup">
+            <div ClassName="navbar-nav">
+              <a ClassName="nav-link active" href="index.html">About<span ClassName="sr-only">(current)</span></a>
+              <a ClassName="nav-link" href="portfolio.html">Portfolio</a>
+              <a ClassName="nav-link" href="contact.html">Contact</a>
+            </div>
+          </div>
+        </nav>
+      </nav>
+      <div ClassName="bg"></div>
+    </div>
   );
 }
 
