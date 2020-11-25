@@ -13,7 +13,7 @@ function Nav() {
           </button>
           <div ClassName="collapse navbar-collapse" ClassName="nav justify-content-end" id="navbarNavAltMarkup">
             <div ClassName="navbar-nav">
-              <a ClassName="nav-link active" href="index.html">About<span ClassName="sr-only">(current)</span></a>
+              <a ClassName="nav-link active" href="index.html">About</a>
               <a ClassName="nav-link" href="portfolio.html">Portfolio</a>
               <a ClassName="nav-link" href="contact.html">Contact</a>
             </div>

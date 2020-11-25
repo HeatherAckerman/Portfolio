@@ -1,6 +1,6 @@
 import React from "react";
-import Me from '../../assets/me.jpg';
-import Resume from '../../assets/Resume.pdf';
+import Me from '../assets/me.jpg';
+import Resume from '../assets/Resume.pdf';
 
 const Home = () => (
   <div className="border">
