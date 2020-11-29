@@ -24,7 +24,7 @@ h5 {
 
 p {
   text-align: justify;
-  text-justify: inter-character;
+ 
 }
 
 .container {
@@ -64,5 +64,10 @@ p {
   max-height: 500px;
   max-width: 100%;
   border-radius: 15px;
-  
+}
+
+@media only screen and (max-width: 600px) {
+  p {
+    word-break: break-all;
+  }
 }
