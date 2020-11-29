@@ -1,25 +1,27 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 
 const Contact = () => (
   <div>
     <Container>
       <Row>
         <Col>
-        <h1>Contact Me</h1><hr></hr><br />
+          <h1>Contact Me</h1><hr></hr>
         </Col>
       </Row>
       <Row>
-        <h3>Find me on:</h3>
+        <h5>Find me on:</h5>
       </Row>
       <Row>
-        <a href={"https://www.linkedin.com/in/heather-ackerman-a6a869b1/"} target="blank">LinkedIn</a>
+        <Button href="https://www.linkedin.com/in/heather-ackerman-a6a869b1/" target="blank" className="contactBtn">LinkedIn</Button>
       </Row>
+      <br />
       <Row>
-        <a href={"https://github.com/HeatherAckerman"} target="blank">GitHub</a>
+        <Button href={"https://github.com/HeatherAckerman"} target="blank" className="contactBtn">GitHub</Button>
       </Row>
+      <br />
       <Row>
-        <h3>Email:</h3>
+        <h5>Email:</h5>
       </Row>
       <Row>
         <p>hla20115213@gmail.com</p>

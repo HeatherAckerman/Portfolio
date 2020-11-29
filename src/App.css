@@ -1,14 +1,25 @@
 * {
   font-size: large;
+  text-align: center;
 }
 
 body {
   background-color: rgb(108, 133, 143);
 }
 
+h1 {
+  font-size: xx-large;
+  text-align: justify;
+  background-color:  rgb(240,240,240,.2);
+}
+
 h5 {
+  font-size: x-large;
   padding-bottom: 10px;
   padding-top: 30px;
+  text-align: center;
+  font-weight: bold;
+  background-color:  rgb(240,240,240,.2);
 }
 
 p {
@@ -18,14 +29,40 @@ p {
 
 .container {
   background-color: rgb(240,240,240,.9);
+  border-radius: 15px;
   padding: 30px;
+  padding-bottom: 25px;
 }
 
-.image {
-  max-width: 75%;
+.img {
+  max-width: 60%;
+  border-radius: 15px;
+  border: 1px solid;
 }
 
-form {
-  padding: 20px;
-  background-color: rgb(255,255,255);
+.btn {
+  width: 100%;
+  background-color:#49515a;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: large;
+  color: rgb(240,240,240,.9);
+  padding: 5px;
+}
+
+.contactBtn {
+  width: 30%;
+  background-color:#49515a;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: large;
+  color: rgb(240,240,240,.9);
+  padding: 5px;
+}
+
+.portfolioImg {
+  max-height: 500px;
+  max-width: 100%;
+  border-radius: 15px;
+  
 }
