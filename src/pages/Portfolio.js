@@ -8,7 +8,9 @@ const Portfolio = () => (
   <div>
     <Container>
       <Row>
-        <h1>Portfolio</h1>
+        <Col>
+        <h1>Portfolio</h1><hr></hr><br />
+        </Col>
       </Row>
       <Row>
         <Col>

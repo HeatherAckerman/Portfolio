@@ -1,11 +1,13 @@
 import React from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 const Contact = () => (
   <div>
     <Container>
       <Row>
-        <h1>Contact Me</h1>
+        <Col>
+        <h1>Contact Me</h1><hr></hr><br />
+        </Col>
       </Row>
       <Row>
         <h3>Find me on:</h3>

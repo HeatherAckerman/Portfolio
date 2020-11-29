@@ -1,19 +1,19 @@
 import React from "react";
 import Me from '../assets/me.jpg';
 import Resume from '../assets/Resume.pdf';
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 
 const About = () => (
   <div>
     <Container>
       <Row>
         <Col>
-          <h1>About Me</h1>
+          <h1>About Me</h1><hr></hr><br />
         </Col>
       </Row>
       <Row>
         <Col>
-          <img id="imgStyle" src={Me} />
+          <Image src={Me} rounded className="image"/>
         </Col>
         <Col>
           <p>Hello, I'm Heather Ackerman. I grew up in East Central Minnesota as the second to youngest,
