@@ -51,19 +51,24 @@ p {
 }
 
 .contactBtn {
-  width: 30%;
+  width: 50%;
   background-color:#49515a;
   border-radius: 15px;
   font-weight: bold;
   font-size: large;
   color: rgb(240,240,240,.9);
   padding: 5px;
+ 
 }
 
 .portfolioImg {
   max-height: 500px;
   max-width: 100%;
   border-radius: 15px;
+}
+
+.email {
+  font-weight: 500;
 }
 
 @media only screen and (max-width: 600px) {
