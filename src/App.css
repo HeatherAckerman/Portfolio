@@ -9,16 +9,15 @@ body {
 
 h1 {
   font-size: xx-large;
+  font-weight: bold;
   text-align: justify;
   background-color:  rgb(240,240,240,.2);
 }
 
 h5 {
-  font-size: x-large;
-  padding-bottom: 10px;
-  padding-top: 30px;
+  font-size:xx-large;
+  padding-bottom: 3%;
   text-align: center;
-  font-weight: bold;
   background-color:  rgb(240,240,240,.2);
 }
 
@@ -35,19 +34,21 @@ p {
 }
 
 .img {
-  max-width: 60%;
+  max-width: 40%;
   border-radius: 15px;
   border: 1px solid;
 }
 
 .btn {
-  width: 100%;
+  width: 50%;
   background-color:#49515a;
   border-radius: 15px;
   font-weight: bold;
   font-size: large;
   color: rgb(240,240,240,.9);
   padding: 5px;
+  margin-bottom: 5%;
+
 }
 
 .contactBtn {
@@ -58,12 +59,24 @@ p {
   font-size: large;
   color: rgb(240,240,240,.9);
   padding: 5px;
- 
+
+}
+
+.resumeBtn {
+  width: 100%;
+  background-color:#49515a;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: large;
+  color: rgb(240,240,240,.9);
+  padding: 5px;
+  margin-bottom: 5%;
+
 }
 
 .portfolioImg {
-  max-height: 500px;
-  max-width: 100%;
+  max-height: 50%;
+  max-width: 50%;
   border-radius: 15px;
 }
 

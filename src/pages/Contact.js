@@ -7,21 +7,29 @@ const Contact = () => (
     <Container>
       <Row>
         <Col>
-          <h1>Contact Me</h1><hr></hr>
+          <Container>
+            <h1>Contact Me</h1><hr></hr>
+          </Container>
         </Col>
       </Row>
       <br />
-      <Row>
-        <Button href={Resume} target="blank" className="contactBtn">Resume</Button>
-      </Row>
-      <br />
-      <Row>
-        <Button href="https://www.linkedin.com/in/heather-ackerman-a6a869b1/" target="blank" className="contactBtn">LinkedIn</Button>
-      </Row>
-      <br />
-      <Row>
-        <Button href={"https://github.com/HeatherAckerman"} target="blank" className="contactBtn">GitHub</Button>
-      </Row>
+      <Container>
+        <Row>
+          <Col>
+            <Button href={Resume} target="blank" className="contactBtn">Resume</Button>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Button href="https://www.linkedin.com/in/heather-ackerman-a6a869b1/" target="blank" className="contactBtn">LinkedIn</Button>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Button href={"https://github.com/HeatherAckerman"} target="blank" className="contactBtn">GitHub</Button>
+          </Col>
+        </Row>
+      </Container>
     </Container>
   </div>
 );
