@@ -5,10 +5,10 @@ const Header = () => (
   <>
     <Navbar bg="dark" variant="dark">
       <Nav className="mr-auto">
-        <Nav.Link href="index.html" style={{fontWeight: "bold"}}>Heather Ackerman</Nav.Link>
-        <Nav.Link href="index.html">About</Nav.Link>
-        <Nav.Link href="portfolio.html">Portfolio</Nav.Link>
-        <Nav.Link href="contact.html">Contact</Nav.Link>
+        <Nav.Link href="#" style={{fontWeight: "bold"}}>Heather Ackerman</Nav.Link>
+        <Nav.Link href="#about">About</Nav.Link>
+        <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+        <Nav.Link href="#contact">Contact</Nav.Link>
       </Nav>
       <br />
       <br />
