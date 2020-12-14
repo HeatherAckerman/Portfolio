@@ -3,12 +3,12 @@ import { Nav, Navbar } from "react-bootstrap";
 
 const Header = () => (
   <>
-    <Navbar bg="dark" variant="dark">
+    <Navbar variant="dark" style={{backgroundColor: " rgb(0,60,82)"}}>
       <Nav className="mr-auto">
-        <Nav.Link href="#" style={{fontWeight: "bold"}}>Heather Ackerman</Nav.Link>
-        <Nav.Link href="#about">About</Nav.Link>
-        <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-        <Nav.Link href="#contact">Contact</Nav.Link>
+        <Nav.Link href="#" style={{fontWeight: "bold", color: "white"}}>Heather Ackerman</Nav.Link>
+        <Nav.Link href="#about" style={{color: "white"}}>About</Nav.Link>
+        <Nav.Link href="#projects" style={{color: "white"}}>Projects</Nav.Link>
+        <Nav.Link href="#contact" style={{color: "white"}}>Contact</Nav.Link>
       </Nav>
       <br />
       <br />

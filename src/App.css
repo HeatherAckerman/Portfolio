@@ -4,44 +4,43 @@
 }
 
 body {
-  background-color: rgb(108, 133, 143);
+  background: rgb(0,60,82);
+  background: linear-gradient(0deg, rgba(0,60,82,1) 0%, rgba(75,143,167,1) 50%, rgba(174,219,235,1) 100%);
 }
 
 h1 {
   font-size: xx-large;
   font-weight: bold;
   text-align: justify;
-  background-color:  rgb(240,240,240,.2);
 }
 
 h5 {
   font-size:xx-large;
   padding-bottom: 3%;
   text-align: center;
-  background-color:  rgb(240,240,240,.2);
 }
 
 p {
-  text-align: justify;
- 
+  text-align: center;
+  max-width: 100%;
 }
 
 .container {
-  background-color: rgb(240,240,240);
+  background-color: rgb(255, 255, 255, .8);
   border-radius: 15px;
-  padding: 30px;
-  padding-bottom: 25px;
+  padding: 3%;
 }
 
-.img {
-  max-width: 40%;
+.me {
+  max-width:40%;
   border-radius: 15px;
   border: 1px solid;
 }
 
 .btn {
-  width: 50%;
-  background-color:#49515a;
+  width: 30%;
+  background: rgb(0,60,82);
+  background: linear-gradient(0deg, rgba(0,60,82,1) 0%, rgba(75,143,167,1) 60%, rgba(174,219,235,1) 100%);
   border-radius: 15px;
   font-weight: bold;
   font-size: large;
@@ -53,7 +52,8 @@ p {
 
 .contactBtn {
   width: 50%;
-  background-color:#49515a;
+  background: rgb(0,60,82);
+  background: linear-gradient(0deg, rgba(0,60,82,1) 0%, rgba(75,143,167,1) 60%, rgba(174,219,235,1) 100%);
   border-radius: 15px;
   font-weight: bold;
   font-size: large;
@@ -63,8 +63,9 @@ p {
 }
 
 .resumeBtn {
-  width: 100%;
-  background-color:#49515a;
+  width: 95%;
+  background: rgb(0,60,82);
+  background: linear-gradient(0deg, rgba(0,60,82,1) 0%, rgba(75,143,167,1) 60%, rgba(174,219,235,1) 100%);
   border-radius: 15px;
   font-weight: bold;
   font-size: large;
@@ -75,7 +76,7 @@ p {
 }
 
 .portfolioImg {
-  max-height: 50%;
+  max-height: 500px;
   max-width: 50%;
   border-radius: 15px;
 }
@@ -87,5 +88,8 @@ p {
 @media only screen and (max-width: 600px) {
   p {
     word-break: break-all;
+  }
+  .container {
+    max-width: 90%;
   }
 }
