@@ -19,7 +19,7 @@ function Carousel() {
                         Worked in a team of 3 to create this clean and intuitive website for our final project.
                         Tools used: HTML, CSS, JavaScript, MongoDB Atlas, Express, React, Node, Bootstrap, GitHub
                             </p><br />
-                        <button className="btn" href={"https://github.com/cc22389/alms4grandy"} target="blank">Repository</button>
+                            <a href={"https://github.com/cc22389/alms4grandy"} target="blank"><button className="btn">Repository</button></a>
                     </div>
 
                     <div className="carousel-item">
@@ -30,7 +30,7 @@ function Carousel() {
                         Worked in a group of 4 primarily in the back-end using pair programming to set up passport and sequelize models. We then worked as a team to connect the front and back end.
                         Tools used: HTML, CSS, JavaScript, My SQL, Express, Node, Passport, jQuery, API calls
                         </p><br />
-                        <button className="btn" href={"https://github.com/LindseyM20/xkcDaily"} target="blank">Repository</button>
+                        <a href={"https://github.com/LindseyM20/xkcDaily"} target="blank"><button className="btn">Repository</button></a>
                     </div>
 
                     <div className="carousel-item">
@@ -41,7 +41,7 @@ function Carousel() {
                         Worked in a team of 3 to create this mobile first clean, fun, front-end application.
                         Tools used: HTML, CSS, JavaScript, jQuery, API calls, GitHub
                         </p><br />
-                        <button className="btn" href={"https://github.com/kyliemegan24/Consolation_Cat_News_App"} target="blank">Repository</button>
+                       <a  href={"https://github.com/kyliemegan24/Consolation_Cat_News_App"} target="blank"><button className="btn">Repository</button></a> 
                     </div>
 
                 </div>

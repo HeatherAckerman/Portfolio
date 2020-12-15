@@ -38,7 +38,6 @@ p {
 }
 
 .btn {
-  width: 30%;
   background: rgb(0,60,82);
   background: linear-gradient(0deg, rgba(0,60,82,1) 0%, rgba(75,143,167,1) 60%, rgba(174,219,235,1) 100%);
   border-radius: 15px;
@@ -63,16 +62,14 @@ p {
 }
 
 .resumeBtn {
-  width: 95%;
+  width: 300px;
   background: rgb(0,60,82);
   background: linear-gradient(0deg, rgba(0,60,82,1) 0%, rgba(75,143,167,1) 60%, rgba(174,219,235,1) 100%);
   border-radius: 15px;
   font-weight: bold;
   font-size: large;
   color: rgb(240,240,240,.9);
-  padding: 5px;
-  margin-bottom: 5%;
-
+  padding: 10%;
 }
 
 .portfolioImg {

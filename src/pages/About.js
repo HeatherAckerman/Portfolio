@@ -38,7 +38,7 @@ const About = () => (
           </div>
         </div>
         <div class="row justify-content-center">
-          <button href={Resume} target="blank" className="resumeBtn">Check out my resume here</button>
+          <a  href={Resume} target="blank"><button className="resumeBtn">Check out my resume here!</button></a>
         </div>
       </div>
       <br />
@@ -47,7 +47,7 @@ const About = () => (
     <div class="container">
       <div class="row justify-content-center">
         <div class="col">
-          <a name="Projects"><h1>Projects</h1></a><hr />
+          <a name="projects"><h1>Projects</h1></a><hr />
         </div>
        </div>
        <Carousel/>
@@ -57,30 +57,30 @@ const About = () => (
       <div class="container">
         <div class="row justify-content-center">
           <div class="col">
-            <a name="contact"><h1>Contact Heather</h1></a><hr></hr>
+            <a name="contact"><h1>Contact</h1></a><hr></hr>
           </div>
         </div>
         <br />
         <div class="row justify-content-center">
           <div class="col">
-            <button href={Resume} target="blank" className="contactBtn">Resume</button>
+          <a  href={Resume} target="blank"><button className="contactBtn">Resume</button></a>
           </div>
         </div>
+        <br/>
         <div class="row justify-content-center">
           <div class="col">
-            <button href="https://www.linkedin.com/in/heather-ackerman-a6a869b1/" target="blank" className="contactBtn">LinkedIn</button>
+          <a  href={"https://www.linkedin.com/in/heather-ackerman-a6a869b1/"} target="blank"><button className="contactBtn">LinkedIn</button></a>
           </div>
         </div>
+        <br/>
         <div class="row justify-content-center">
           <div class="col">
-            <button href={"https://github.com/HeatherAckerman"} target="blank" className="contactBtn">GitHub</button>
+          <a  href={"https://github.com/HeatherAckerman"} target="blank"><button className="contactBtn">GitHub</button></a>
           </div>
         </div>
       </div>
     </div>
-
-
-  </div>
+</div>
 );
 
 export default About;
