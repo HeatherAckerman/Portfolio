@@ -38,14 +38,14 @@ p {
 }
 
 .btn {
+  width: 50%;
   background: rgb(0,60,82);
   background: linear-gradient(0deg, rgba(0,60,82,1) 0%, rgba(75,143,167,1) 60%, rgba(174,219,235,1) 100%);
   border-radius: 15px;
   font-weight: bold;
   font-size: large;
   color: rgb(240,240,240,.9);
-  padding: 5px;
-  margin-bottom: 5%;
+  padding: 1%;
 
 }
 
@@ -57,19 +57,19 @@ p {
   font-weight: bold;
   font-size: large;
   color: rgb(240,240,240,.9);
-  padding: 5px;
+  padding: 1%;
 
 }
 
 .resumeBtn {
-  width: 300px;
+  width: 100%;
   background: rgb(0,60,82);
   background: linear-gradient(0deg, rgba(0,60,82,1) 0%, rgba(75,143,167,1) 60%, rgba(174,219,235,1) 100%);
   border-radius: 15px;
   font-weight: bold;
   font-size: large;
   color: rgb(240,240,240,.9);
-  padding: 10%;
+  padding: 3%;
 }
 
 .portfolioImg {
