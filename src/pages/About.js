@@ -1,6 +1,6 @@
 import React from "react";
 import Me from '../assets/me.jpg';
-import Resume from '../assets/Resume.pdf';
+import technicalResume from '../assets/technicalResume.pdf';
 import Carousel from '../components/Carousel.js'
 
 const About = () => (
@@ -38,7 +38,7 @@ const About = () => (
           </div>
         </div>
         <div class="row justify-content-center">
-          <a  href={Resume} target="blank"><button className="resumeBtn">Check out my resume here!</button></a>
+          <a  href={technicalResume} target="blank"><button className="resumeBtn">Check out my resume here!</button></a>
         </div>
       </div>
       <br />
@@ -63,7 +63,7 @@ const About = () => (
         <br />
         <div class="row justify-content-center">
           <div class="col">
-          <a  href={Resume} target="blank"><button className="contactBtn">Resume</button></a>
+          <a  href={technicalResume} target="blank"><button className="contactBtn">Resume</button></a>
           </div>
         </div>
         <br/>
