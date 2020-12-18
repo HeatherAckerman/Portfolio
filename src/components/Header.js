@@ -8,6 +8,7 @@ const Header = () => (
         <Nav.Link href="#" style={{fontWeight: "bold", color: "white"}}>Heather Ackerman</Nav.Link>
         <Nav.Link href="#about" style={{color: "white"}}>About</Nav.Link>
         <Nav.Link href="#projects" style={{color: "white"}}>Projects</Nav.Link>
+        <Nav.Link href="#skills" style={{color: "white"}}>Skills</Nav.Link>
         <Nav.Link href="#contact" style={{color: "white"}}>Contact</Nav.Link>
       </Nav>
       <br />
