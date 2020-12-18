@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import StickyFooter from 'react-sticky-footer';
 import Projects from "./components/Projects.js";
 import Contact from "./components/Contact.js";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <Header />
       <About />
       <Projects />
-      <Contact/>
+      <Skills />
+      <Contact />
       <StickyFooter>
         <Footer />
       </StickyFooter>

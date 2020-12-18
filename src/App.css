@@ -11,7 +11,7 @@ body {
 h1 {
   font-size: xx-large;
   font-weight: bold;
-  text-align: justify;
+  text-align: center;
 }
 
 h5 {
@@ -80,6 +80,12 @@ p {
 
 .email {
   font-weight: 500;
+}
+
+.skillpic {
+  
+  padding: 1%;
+  border-radius: 15px;
 }
 
 @media only screen and (max-width: 600px) {

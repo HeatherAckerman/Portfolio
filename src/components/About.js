@@ -8,8 +8,8 @@ function About() {
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col">
-                        <h1 style={{ textAlign: "center" }}>Heather Ackerman</h1>
-                        <h2>Full Stack Web Developer</h2><hr />
+                        <h1 style={{ textAlign: "center" }}>Heather Ackerman</h1><hr />
+                        <h2>Full Stack Web Developer</h2>
                     </div>
                 </div>
             </div>
