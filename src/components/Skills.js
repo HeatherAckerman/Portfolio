@@ -13,7 +13,7 @@ import react from "../assets/skills/react.jpg";
 import node from "../assets/skills/node.png";
 import html from "../assets/skills/html.jpg";
 import css from "../assets/skills/css.jpg";
-import js from "../assets/skills/js.jpg";
+import skills from "../assets/skills/skills.png";
 
 
 function Skills() {
@@ -22,28 +22,10 @@ function Skills() {
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col">
-                        <a name="contact"><h1>Skills</h1></a><hr></hr>
+                        <a name="contact"><h1>Skills</h1></a><hr/>
                     </div>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col">
-                        <img class="skillpic" src={html} alt={"html"} />
-                        <img class="skillpic" src={css} alt={"css"} />
-                        <img class="skillpic" src={js} alt={"js"} />
-                        <img class="skillpic" src={git} alt={"git"} />
-                        <img class="skillpic" src={github} alt={"github"} />
-                        <img class="skillpic" src={vscode} alt={"vscode"} />
-                        <img class="skillpic" src={bootstrap} alt={"bootstrap"} />
-                        <img class="skillpic" src={jquery} alt={"jquery"} />
-                        <img class="skillpic" src={node} alt={"node"} />
-                        <img class="skillpic" src={heroku} alt={"heroku"} />
-                        <img class="skillpic" src={mysql} alt={"mysql"} />
-                        <img class="skillpic" src={mongo} alt={"mongo"} />
-                        <img class="skillpic" src={userauthentication} alt={"userauthentication"} />
-                        <img class="skillpic" src={webpack} alt={"webpack"} />
-                        <img class="skillpic" src={react} alt={"react"} />
-                    </div>
-                </div>
+                        <img className="skillspic" src={skills} alt={"html"} />
             </div>
             <br />
         </div>

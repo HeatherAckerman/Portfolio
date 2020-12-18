@@ -82,8 +82,8 @@ p {
   font-weight: 500;
 }
 
-.skillpic {
-  
+.skillspic {
+  max-width: 99%;
   padding: 1%;
   border-radius: 15px;
 }
@@ -94,5 +94,8 @@ p {
   }
   .container {
     max-width: 90%;
+  }
+  .skillpic {
+   max-width: 100px;
   }
 }
