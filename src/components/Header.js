@@ -5,7 +5,6 @@ const Header = () => (
   <>
     <Navbar variant="dark" style={{backgroundColor: " rgb(0,60,82)"}}>
       <Nav className="mr-auto">
-        <Nav.Link href="#" style={{fontWeight: "bold", color: "white"}}>Heather Ackerman</Nav.Link>
         <Nav.Link href="#about" style={{color: "white"}}>About</Nav.Link>
         <Nav.Link href="#projects" style={{color: "white"}}>Projects</Nav.Link>
         <Nav.Link href="#skills" style={{color: "white"}}>Skills</Nav.Link>

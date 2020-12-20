@@ -32,9 +32,19 @@ p {
 }
 
 .me {
-  max-width:40%;
+  max-height: 150px;
   border-radius: 15px;
-  border: 1px solid;
+  margin: 1%;
+}
+
+.pets {
+  border-radius: 15px;
+  margin:1.5%;
+}
+
+.aboutP {
+  margin: 5%;
+  text-align: justify;
 }
 
 .btn {
@@ -69,7 +79,7 @@ p {
   font-weight: bold;
   font-size: large;
   color: rgb(240,240,240,.9);
-  padding: 3%;
+  padding: 1%;
 }
 
 .portfolioImg {
@@ -98,5 +108,11 @@ p {
   }
   .skillpic {
    max-width: 100px;
+  }
+  .me {
+    max-height: 60px;
+  }
+  .pets {
+    max-height: 75px;
   }
 }
