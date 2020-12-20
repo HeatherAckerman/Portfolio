@@ -101,7 +101,7 @@ p {
 
 @media only screen and (max-width: 600px) {
   p {
-    word-break: break-all;
+    font-kerning: normal;
   }
   .container {
     max-width: 90%;
