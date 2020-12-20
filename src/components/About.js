@@ -9,11 +9,11 @@ import technicalResume from '../assets/technicalResume.pdf';
 function About() {
     return (
         <div>
+            <br/><br/><br/><br/>
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col">
                         <div class="row justify-content-center">
-
                             <img src={Me} class="me" />
                         </div>
                         <h1 style={{ textAlign: "center" }}>Heather Ackerman</h1><hr />
