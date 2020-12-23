@@ -7,14 +7,16 @@ import StickyFooter from 'react-sticky-footer';
 import Projects from "./components/Projects.js";
 import Contact from "./components/Contact.js";
 import Skills from "./components/Skills";
+import Jumbotron from "./components/Jumbotron";
 
 function App() {
   return (
     <>
       <Header />
-      <About />
+      <Jumbotron />
       <Projects />
       <Skills />
+      <About />
       <Contact />
       <StickyFooter>
         <Footer />
