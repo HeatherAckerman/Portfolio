@@ -19,7 +19,7 @@ function Contact() {
                 <br />
                 <div class="row justify-content-center">
                     <div class="col">
-                        <a href={"https://www.linkedin.com/in/heather-ackerman-a6a869b1/"} target="blank"><button className="contactBtn">LinkedIn</button></a>
+                        <a href={"https://www.linkedin.com/in/ackermanheather"} target="blank"><button className="contactBtn">LinkedIn</button></a>
                     </div>
                 </div>
                 <br />
