@@ -20,7 +20,7 @@ function About() {
                     <img src={Emma} class="pets" />
                     <img src={Jack} class="pets" />
                     <img src={Tabby} class="pets" />
-                </div>
+                </div><br/>
                 <div class="row">
                     <p className="aboutP">Hello, <br /> I'm Heather Ackerman. I grew up in East Central Minnesota as the second to youngest,
           with four sisters and a brother. I love animals and enjoy outdoor activities. I have done
