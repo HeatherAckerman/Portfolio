@@ -28,6 +28,12 @@ function Contact() {
                         <a href={"https://github.com/HeatherAckerman"} target="blank"><button className="contactBtn">GitHub</button></a>
                     </div>
                 </div>
+                <br />
+                <div class="row justify-content-center">
+                    <div class="col">
+                        <a href={"mailto:hla20115213@gmail.com"} target="blank" rel="noopener noreferrer"><button className="contactBtn">Email</button></a>
+                    </div>
+                </div>
             </div>
         </div>
     );
