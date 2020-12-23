@@ -7,7 +7,7 @@ function Contact() {
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col">
-                        <a name="contact"><h1>Contact</h1></a><hr></hr>
+                        <a name="contact"><h1>Contact<div>Currently looking for new opportunities</div></h1></a><hr></hr>
                     </div>
                 </div>
                 <br />
