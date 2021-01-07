@@ -20,6 +20,10 @@ function ProjectsDisplay() {
                                             <a href={project.seeMore} target="blank">
                                                 <img style={{ alignSelf: 'center' }} src={project.image} className="portfolioImg" alt={project.title} /></a><br /><br />
                                             <p className="pDescription">{project.description}
+                                            </p>
+                                            <p className="pDescription">{project.about}
+                                            </p>
+                                            <p className="pDescription">{project.tools}
                                             </p><br />
                                             <a href={project.seeMore} target="blank"><button className="btn">See More</button></a><br /><br />
                                             <a href={project.repository} target="blank"><button className="btn">Repository</button></a>
@@ -34,6 +38,10 @@ function ProjectsDisplay() {
                                             <a href={project.seeMore} target="blank">
                                                 <img style={{ alignSelf: 'center' }} src={project.image} className="portfolioImg" alt={project.title} /></a><br /><br />
                                             <p className="pDescription">{project.description}
+                                            </p>
+                                            <p className="pDescription">{project.about}
+                                            </p>
+                                            <p className="pDescription">{project.tools}
                                             </p><br />
                                             <a href={project.seeMore} target="blank"><button className="btn">See More</button></a><br /><br />
                                             <a href={project.repository} target="blank"><button className="btn">Repository</button></a>
