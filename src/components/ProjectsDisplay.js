@@ -1,9 +1,4 @@
 import React from "react";
-import consolationCats from '../assets/consolationCats.jpg';
-import workoutTracker from '../assets/workoutTracker.png';
-import weatherChecker from '../assets/weatherChecker.jpg';
-import GCC from '../assets/GCC.gif'
-import empDir from '../assets/empDir.gif'
 import Projects from '../projects.json'
 
 function ProjectsDisplay() {
@@ -11,7 +6,7 @@ function ProjectsDisplay() {
         <div>
             <div class="container">
                 <div class="col">
-                    <h1 name="projects"><h1>Projects</h1></h1><hr />
+                    <a name="projects"><h1>Projects</h1></a><hr />
                     <br />
                 </div>
                 <div id="carouselExampleFade" className="carousel slide carousel-fade" data-ride="carousel">
@@ -20,7 +15,6 @@ function ProjectsDisplay() {
                             if (i === 0) {
                                 return (
                                     <>
-
                                         <div className="carousel-item active">
                                             <h5>{project.title}</h5>
                                             <a href={project.seeMore} target="blank">
@@ -36,7 +30,7 @@ function ProjectsDisplay() {
                                 return (
                                     <>
                                         <div className="carousel-item">
-                                        <h5>{project.title}</h5>
+                                            <h5>{project.title}</h5>
                                             <a href={project.seeMore} target="blank">
                                                 <img style={{ alignSelf: 'center' }} src={project.image} className="portfolioImg" alt={project.title} /></a><br /><br />
                                             <p className="pDescription">{project.description}
@@ -50,8 +44,6 @@ function ProjectsDisplay() {
 
                             }
                         })}
-
-
                     </div>
                     <a className="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
                         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
