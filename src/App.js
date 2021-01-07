@@ -4,7 +4,7 @@ import About from "./components/About";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import StickyFooter from 'react-sticky-footer';
-import Projects from "./components/Projects.js";
+import ProjectsDisplay from "./components/ProjectsDisplay.js";
 import Contact from "./components/Contact.js";
 import Skills from "./components/Skills";
 import Jumbotron from "./components/Jumbotron";
@@ -14,7 +14,7 @@ function App() {
     <>
       <Header />
       <Jumbotron />
-      <Projects />
+      <ProjectsDisplay />
       <Skills />
       <About />
       <Contact />

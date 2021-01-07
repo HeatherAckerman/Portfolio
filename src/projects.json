@@ -1,0 +1,12 @@
+  
+[
+    {
+      "title": "Alms4Grandy",
+      "seeMore":"https://alms4grandy.herokuapp.com/",
+      "image": "https://media.giphy.com/media/mRQH6CD6XoiXPj3ua9/giphy.gif",
+      "description": "MERN stack react app designed for the Grandy Community Center. Worked in a team of 3 to create this clean and intuitive website for our final project. Tools used: HTML, CSS, JavaScript, MongoDB Atlas, Express, React, Node, Bootstrap, GitHub",
+      "repository": "https://github.com/LindseyM20/xkcDaily"
+      
+    }
+
+]
