@@ -1,4 +1,5 @@
 import React from "react";
+import { Card, Button } from "react-bootstrap";
 import Projects from '../projects.json'
 
 function ProjectsDisplay() {
@@ -16,17 +17,17 @@ function ProjectsDisplay() {
                                 return (
                                     <>
                                         <div className="carousel-item active">
-                                            <h5>{project.title}</h5>
-                                            <a href={project.seeMore} target="blank">
-                                                <img style={{ alignSelf: 'center' }} src={project.image} className="portfolioImg" alt={project.title} /></a><br /><br />
-                                            <p className="pDescription">{project.description}
-                                            </p>
-                                            <p className="pDescription">{project.about}
-                                            </p>
-                                            <p className="pDescription">{project.tools}
-                                            </p><br />
-                                            <a href={project.seeMore} target="blank"><button className="btn">See More</button></a><br /><br />
-                                            <a href={project.repository} target="blank"><button className="btn">Repository</button></a>
+                                            <Card style={{ maxWidth: '75%', margin: '0 auto' }}>
+                                                <a href={project.seeMore} target="blank">
+                                                    <Card.Img variant="top" style={{ alignSelf: 'center' }} src={project.image} alt={project.title} /></a>
+                                                <Card.Body>
+                                                    <Card.Title>{project.title}</Card.Title>
+                                                    <Card.Text>{project.description}<br />{project.tools}
+                                                    </Card.Text>
+                                                    <a href={project.seeMore} target="blank"><Button className="btn">See More</Button></a><br /><br />
+                                                    <a href={project.repository} target="blank"><Button className="btn">Repository</Button></a>
+                                                </Card.Body>
+                                            </Card>
                                         </div>
                                     </>
                                 )
@@ -34,17 +35,17 @@ function ProjectsDisplay() {
                                 return (
                                     <>
                                         <div className="carousel-item">
-                                            <h5>{project.title}</h5>
-                                            <a href={project.seeMore} target="blank">
-                                                <img style={{ alignSelf: 'center' }} src={project.image} className="portfolioImg" alt={project.title} /></a><br /><br />
-                                            <p className="pDescription">{project.description}
-                                            </p>
-                                            <p className="pDescription">{project.about}
-                                            </p>
-                                            <p className="pDescription">{project.tools}
-                                            </p><br />
-                                            <a href={project.seeMore} target="blank"><button className="btn">See More</button></a><br /><br />
-                                            <a href={project.repository} target="blank"><button className="btn">Repository</button></a>
+                                            <Card style={{ maxWidth: '75%', margin: '0 auto' }}>
+                                                <a href={project.seeMore} target="blank">
+                                                    <Card.Img variant="top" style={{ alignSelf: 'center' }} src={project.image} alt={project.title} /></a>
+                                                <Card.Body>
+                                                    <Card.Title>{project.title}</Card.Title>
+                                                    <Card.Text>{project.description}<br />{project.tools}
+                                                    </Card.Text>
+                                                    <a href={project.seeMore} target="blank"><Button className="btn">See More</Button></a><br /><br />
+                                                    <a href={project.repository} target="blank"><Button className="btn">Repository</Button></a>
+                                                </Card.Body>
+                                            </Card>
                                         </div>
 
                                     </>
