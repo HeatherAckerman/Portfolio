@@ -1,0 +1,29 @@
+[
+    {
+        "title": "Alms4Grandy",
+        "seeMore": "https://alms4grandy.herokuapp.com/",
+        "image": "https://media.giphy.com/media/mRQH6CD6XoiXPj3ua9/giphy.gif",
+        "description": "MERN stack react app designed for the Grandy Community Center.",
+        "about": "Worked in a team of 3 to create this clean and intuitive website for our final project.",
+        "tools": "Tools used: HTML, CSS, JavaScript, MongoDB Atlas, Express, React, Node, Bootstrap, GitHub",
+        "repository": "https://github.com/cc22389/alms4grandy"
+    },
+    {
+        "title": "xkcDaily",
+        "seeMore": "https://xkcdaily.herokuapp.com/",
+        "image": "https://media.giphy.com/media/YbjNk8ZiEJQ2lwbS4H/giphy.gif",
+        "description": "Schedule some laughter in your day with this calendar app that displays and saves xkcd comics.",
+        "about": "Worked in a group of 4 primarily in the back-end using pair programming to set up passport and sequelize models. We then worked as a team to connect the front and back end.",
+        "tools": "Tools used: HTML, CSS, JavaScript, My SQL, Express, Node, Passport, jQuery, API calls.",
+        "repository": "https://github.com/LindseyM20/xkcDaily"
+    },
+    {
+        "title": "Consolation Cat for the Times",
+        "seeMore": "https://kyliemegan24.github.io/Consolation_Cat_News_App/",
+        "image": "https://media.giphy.com/media/6bYI6Vq0zRlB3kdiUT/giphy.gif",
+        "description": "Enjoy the New York Times with a delightful twist that's sure to bring a smile.",
+        "about": "Worked in a team of 3 to create this mobile first clean, fun, front-end application.",
+        "tools": "Tools used: HTML, CSS, JavaScript, jQuery, API calls, GitHub",
+        "repository": "https://github.com/kyliemegan24/Consolation_Cat_News_App"
+    }
+]

@@ -1,29 +1,27 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import About from "./pages/About";
-import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact";
+import About from "./components/About";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import StickyFooter from 'react-sticky-footer';
+import ProjectsDisplay from "./components/ProjectsDisplay.js";
+import Contact from "./components/Contact.js";
+import Skills from "./components/Skills";
+import Jumbotron from "./components/Jumbotron";
 
 function App() {
   return (
-    <Router>
+    <>
       <Header />
-      <div>
-        <Switch>
-          <Route exact path="/" component={About} />
-          <Route exact path="/index.html" component={About} />
-          <Route exact path="/portfolio.html" component={Portfolio} />
-          <Route exact path="/contact.html" component={Contact} />
-        </Switch>
-      </div>
+      <Jumbotron />
+      <ProjectsDisplay />
+      <Skills />
+      <About />
+      <Contact />
       <StickyFooter>
         <Footer />
       </StickyFooter>
-    </Router>
+    </>
   );
 }
 

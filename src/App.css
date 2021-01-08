@@ -4,78 +4,90 @@
 }
 
 body {
-  background-color: rgb(108, 133, 143);
+  background: rgb(0,60,82);
+  background: linear-gradient(0deg, rgba(0,60,82,1) 0%, rgba(75,143,167,1) 50%, rgba(174,219,235,1) 100%);
 }
 
 h1 {
   font-size: xx-large;
   font-weight: bold;
-  text-align: justify;
-  background-color:  rgb(240,240,240,.2);
+  text-align: center;
 }
 
 h5 {
   font-size:xx-large;
   padding-bottom: 3%;
   text-align: center;
-  background-color:  rgb(240,240,240,.2);
 }
 
 p {
-  text-align: justify;
- 
+  text-align: center;
+  max-width: 100%;
 }
 
 .container {
-  background-color: rgb(240,240,240,.9);
+  background-color: rgb(255, 255, 255, .8);
   border-radius: 15px;
-  padding: 30px;
-  padding-bottom: 25px;
+  padding: 3%;
 }
 
-.img {
-  max-width: 40%;
+.me {
+  max-height: 150px;
   border-radius: 15px;
-  border: 1px solid;
+  margin: 1%;
+}
+
+.pets {
+  border-radius: 15px;
+  margin:1.5%;
+}
+
+.aboutP {
+  max-width: 75%;
+  text-align: justify;
+  margin:0 auto;
+}
+
+.pDescription {
+  max-width: 60%;
+  text-align: justify;
+  margin:0 auto;
 }
 
 .btn {
   width: 50%;
-  background-color:#49515a;
+  background: rgb(0,60,82);
+  background: linear-gradient(0deg, rgba(0,60,82,1) 0%, rgba(75,143,167,1) 60%, rgba(174,219,235,1) 100%);
   border-radius: 15px;
   font-weight: bold;
   font-size: large;
   color: rgb(240,240,240,.9);
-  padding: 5px;
-  margin-bottom: 5%;
+  padding: 1%;
 
 }
 
 .contactBtn {
-  width: 50%;
-  background-color:#49515a;
   border-radius: 15px;
   font-weight: bold;
   font-size: large;
   color: rgb(240,240,240,.9);
-  padding: 5px;
+  padding: 1%;
 
 }
 
 .resumeBtn {
   width: 100%;
-  background-color:#49515a;
+  background: rgb(0,60,82);
+  background: linear-gradient(0deg, rgba(0,60,82,1) 0%, rgba(75,143,167,1) 60%, rgba(174,219,235,1) 100%);
   border-radius: 15px;
   font-weight: bold;
   font-size: large;
   color: rgb(240,240,240,.9);
-  padding: 5px;
-  margin-bottom: 5%;
-
+  padding: 1%;
 }
 
 .portfolioImg {
-  max-height: 50%;
+  max-height: 500px;
   max-width: 50%;
   border-radius: 15px;
 }
@@ -84,8 +96,27 @@ p {
   font-weight: 500;
 }
 
+.skillspic {
+  max-width: 99%;
+  padding: 1%;
+  border-radius: 15px;
+  opacity: .8
+}
+
 @media only screen and (max-width: 600px) {
   p {
-    word-break: break-all;
+    font-kerning: normal;
+  }
+  .container {
+    max-width: 90%;
+  }
+  .skillpic {
+   max-width: 100px;
+  }
+  .me {
+    max-height: 60px;
+  }
+  .pets {
+    max-height: 75px;
   }
 }
