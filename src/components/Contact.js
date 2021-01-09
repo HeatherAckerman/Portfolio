@@ -10,7 +10,7 @@ function Contact() {
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col">
-                        <a name="contact"><h1>Contact<div>If you have feedback, advice, or would like to collaborate on a project please reach out.</div></h1></a><hr></hr>
+                        <a name="contact"><h1>Contact<div>If you have feedback, advice, or would like to collaborate on a project please reach out, I would love to hear from you. </div></h1></a><hr></hr>
                     </div>
                 </div>
                 <br />
