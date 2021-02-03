@@ -84,7 +84,7 @@ h1 {
 
 @media only screen and (max-width: 600px) {
   .aboutP {
-   word-break: break-all;
+   hyphens: auto;
   }
   .container {
     max-width: 90%;
