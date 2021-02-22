@@ -3,6 +3,7 @@ import technicalResume from '../assets/technicalResume.pdf';
 import LinkedIn from '../assets/linkedIn.png';
 import GitHub from '../assets/github.png';
 import email from '../assets/email.jpg'
+import ContactForm from "../contact/index";
 
 function Contact() {
     return (
@@ -25,6 +26,7 @@ function Contact() {
                         <a href={"mailto:hla20115213@gmail.com"} target="blank" rel="noopener noreferrer"><img src={email} className="contactBtn" /><br />Email</a>
                     </div>
                 </div>
+                <ContactForm/>
             </div>
         </div>
     );
