@@ -22,8 +22,7 @@ function ProjectsDisplay() {
                                                     <Card.Img variant="top" style={{ alignSelf: 'center' }} src={project.image} alt={project.title} /></a>
                                                 <Card.Body>
                                                     <Card.Title className="cardTitle">{project.title}</Card.Title>
-                                                    <Card.Text className="pDescription">{project.description}<br />{project.tools}
-                                                    </Card.Text>
+                                                    <Card.Text className="pDescription">{project.description}</Card.Text>
                                                     <a href={project.seeMore} target="blank"><Button className="btn">See More</Button></a><br/>
                                                     <a href={project.repository} target="blank"><Button className="btn">Repository</Button></a>
                                                 </Card.Body>
@@ -40,8 +39,7 @@ function ProjectsDisplay() {
                                                     <Card.Img variant="top" style={{ alignSelf: 'center' }} src={project.image} alt={project.title} /></a>
                                                 <Card.Body>
                                                     <Card.Title className="cardTitle">{project.title}</Card.Title>
-                                                    <Card.Text className="pDescription">{project.description}<br />{project.tools}
-                                                    </Card.Text>
+                                                    <Card.Text className="pDescription">{project.description}</Card.Text>
                                                     <a href={project.seeMore} target="blank"><Button className="btn">See More</Button></a><br/>
                                                     <a href={project.repository} target="blank"><Button className="btn">Repository</Button></a>
                                                 </Card.Body>

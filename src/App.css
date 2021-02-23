@@ -28,6 +28,7 @@ h1 {
   font-size:xx-large;
   padding: 1%;
   text-align: center;
+  text-decoration: underline;
 }
 
 .pDescription {
@@ -52,7 +53,7 @@ h1 {
 }
 
 .btn {
-  width: 90%;
+  width: 25%;
   background: rgb(0,60,82);
   background: linear-gradient(0deg, rgba(0,60,82,1) 0%, rgba(75,143,167,1) 60%, rgba(174,219,235,1) 100%);
   border-radius: 15px;
@@ -144,5 +145,8 @@ h3 {
   }
   .pets {
     max-height: 75px;
+  }
+  .btn {
+    width: 65%;
   }
 }
