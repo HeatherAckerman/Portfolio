@@ -52,7 +52,7 @@ h1 {
 }
 
 .btn {
-  width: 30%;
+  width: 90%;
   background: rgb(0,60,82);
   background: linear-gradient(0deg, rgba(0,60,82,1) 0%, rgba(75,143,167,1) 60%, rgba(174,219,235,1) 100%);
   border-radius: 15px;
@@ -90,7 +90,7 @@ form {
   background-color: rgb(0,60,82);
   border-style: solid;
   border-color: rgb(255, 255, 255, .5);
-  width: 30%;
+  width: 275px;
   margin: 2% auto;
   padding: 2%;
   border-radius: 15px;
@@ -113,18 +113,20 @@ textarea {
 }
 
 .submitBtn{
-  background-color: rgba(174,219,235,1);
-  color: black;
+  background: rgb(0,60,82);
+  background: linear-gradient(0deg, rgba(0,60,82,1) 0%, rgba(75,143,167,1) 60%, rgba(174,219,235,1) 100%);
+  color: white;
   border: none;
   margin: 1% auto;
   border-radius: 15px;
-  padding: 2%;
+  padding: 3%;
   width: 30%
 }
 
 h3 {
   color: white;
   font-size: larger;
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 600px) {

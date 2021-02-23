@@ -12,9 +12,11 @@ function Contact() {
                 <div class="row justify-content-center">
                     <div class="col">
                         <a name="contact">
-                            <h1>Contact</h1><hr/>
+                            <h1>Contact</h1>
+                            <hr/>
                             <h2>Want to collaborate on a project? Have feedback? Know of an employment opportunity? I’d love to hear from you! I can be reached using the form or one of the links below.</h2>
-                        </a><hr/>
+                            <hr/>
+                        </a>
                     </div>
                 </div>
                 <ContactForm />

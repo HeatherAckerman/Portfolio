@@ -24,7 +24,7 @@ function ProjectsDisplay() {
                                                     <Card.Title className="cardTitle">{project.title}</Card.Title>
                                                     <Card.Text className="pDescription">{project.description}<br />{project.tools}
                                                     </Card.Text>
-                                                    <a href={project.seeMore} target="blank"><Button className="btn">See More</Button></a>
+                                                    <a href={project.seeMore} target="blank"><Button className="btn">See More</Button></a><br/>
                                                     <a href={project.repository} target="blank"><Button className="btn">Repository</Button></a>
                                                 </Card.Body>
                                             </Card>
@@ -42,7 +42,7 @@ function ProjectsDisplay() {
                                                     <Card.Title className="cardTitle">{project.title}</Card.Title>
                                                     <Card.Text className="pDescription">{project.description}<br />{project.tools}
                                                     </Card.Text>
-                                                    <a href={project.seeMore} target="blank"><Button className="btn">See More</Button></a>
+                                                    <a href={project.seeMore} target="blank"><Button className="btn">See More</Button></a><br/>
                                                     <a href={project.repository} target="blank"><Button className="btn">Repository</Button></a>
                                                 </Card.Body>
                                             </Card>
