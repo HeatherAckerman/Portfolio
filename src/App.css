@@ -12,6 +12,10 @@ h1 {
   font-size: xx-large;
   font-weight: bold;
   text-align: center;
+  display: table;
+  margin: 0 auto;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .container {
@@ -80,6 +84,47 @@ h1 {
   padding: 1%;
   border-radius: 15px;
   opacity: .8
+}
+
+form {
+  background-color: rgb(0,60,82);
+  border-style: solid;
+  border-color: rgb(255, 255, 255, .5);
+  width: 30%;
+  margin: 2% auto;
+  padding: 2%;
+  border-radius: 15px;
+}
+
+.inputClass {
+  color: black;
+  border: none;
+  margin: 2% auto;
+  border-radius: 15px;
+  padding: 2%;
+}
+
+textarea {
+  color: black;
+  border: none;
+  margin: 2% auto;
+  border-radius: 15px;
+  padding: 2%;
+}
+
+.submitBtn{
+  background-color: rgba(174,219,235,1);
+  color: black;
+  border: none;
+  margin: 1% auto;
+  border-radius: 15px;
+  padding: 2%;
+  width: 30%
+}
+
+h3 {
+  color: white;
+  font-size: larger;
 }
 
 @media only screen and (max-width: 600px) {
