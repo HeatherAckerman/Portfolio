@@ -32,6 +32,7 @@ const ContactForm = () => {
                     message: formData.message,
                     time: new Date(),
                 })
+                alert("Your message has been sent. Thank you!")
             })
             .catch(error => {
                 console.log(error)
